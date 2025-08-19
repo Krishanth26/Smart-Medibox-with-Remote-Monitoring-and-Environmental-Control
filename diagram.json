@@ -1,0 +1,67 @@
+[
+    {
+        "id": "917cc4550f68a3c9",
+        "type": "ui_chart",
+        "z": "d1f88d95ee17136b",
+        "g": "b2b5e2c25859f82f",
+        "name": "",
+        "group": "ea6b285e142738fa",
+        "order": 10,
+        "width": 9,
+        "height": 4,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "cubic",
+        "nodata": "",
+        "dot": false,
+        "ymin": "10",
+        "ymax": "80",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1390,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea6b285e142738fa",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "679a3e0ec74a6e15",
+        "order": 2,
+        "disp": true,
+        "width": 9,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "679a3e0ec74a6e15",
+        "type": "ui_tab",
+        "name": "My Medibox",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
